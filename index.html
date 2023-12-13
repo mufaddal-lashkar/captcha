@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CAPTCHA Generator</title>
+    <script src="https://kit.fontawesome.com/4e00dfc6ed.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Vibes&display=swap" rel="stylesheet">
+</head>
+<body onload="generateCap()">
+    <div class="container">
+        <h1>CAPTCHA Generator</h1>
+        <div class="cap-re">
+            <input readonly type="text" id="cap"></input>
+            <button onclick="generateCap()" class="re-btn"><i class="fa-solid fa-arrows-rotate"></i></button>
+        </div>
+    </div>
+</body>
+</html>
